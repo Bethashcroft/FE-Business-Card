@@ -1,0 +1,39 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="card.js" defer></script>
+    <title>Business Card</title>
+  </head>
+  <body>
+    <h1>Buisness Card Generator</h1>
+    <ul id="errorMessage"></ul>
+    <form action="./result.html" method="get" id="form">
+      <label for="Firstname">First Name:</label>
+      <input
+        id="Firstname"
+        type="text"
+        placeholder="Joe"
+        name="Firstname"
+        required
+      />
+      <label for="Lastname">Last Name:</label>
+      <input id="Lastname" type="text" placeholder="Bloggs" required />
+      <label for="Company">Company Name:</label>
+      <input id="Company" type="text" placeholder="Tesco" required />
+      <label for="Job">Job Title:</label>
+      <input id="Job" type="text" placeholder="Till Operator" required />
+      <label for="Email">Email Address:</label>
+      <input id="Email" type="text" placeholder="Joe@gmail.com" name="Email" />
+      <label for="Phonenumber">Phone Number:</label>
+      <input
+        id="Phonenumber"
+        type="text"
+        placeholder="07251744936"
+        name="Phonenumber"
+      />
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
