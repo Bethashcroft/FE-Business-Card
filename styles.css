@@ -1,0 +1,33 @@
+body {
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif 
+}
+
+h1 {
+    text-align: center;
+}
+#errorMessage li {
+    color: red;
+}
+
+form {
+    display:flex;
+    flex-direction: column;
+    width: 42%;
+    margin-right: auto;
+    margin-left: auto;
+
+    padding: 1rem;
+     
+    border: rgb(105, 105, 105) 2px solid ;
+    border-radius: 0.5rem;
+    box-shadow: rgb(187, 187, 187) 4px 4px;
+}
+
+form label {
+    margin-top: 0.5rem;
+}
+
+form button {
+    margin-top: 1rem;
+    width: 80px;
+}
